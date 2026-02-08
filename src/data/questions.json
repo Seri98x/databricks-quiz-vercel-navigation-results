@@ -373,7 +373,7 @@
   },
   {
     "id": 13,
-    "question": "An upstream system is emitting change data capture (CDC) logs that are being written to a cloud object storage Question: 11 Exam Heist Question: 12 Exam Heist Question: 13 Exam Heist directory. Each record in the log indicates the change type (insert, update, or delete) and the values for each field after the change. The source table has a primary key identified by the field pk_id. For auditing purposes, the data governance team wishes to maintain a full record of all values that have ever been valid in the source system. For analytical purposes, only the most recent value for each record needs to be recorded. The Databricks job to ingest these records occurs once per hour, but each individual record may have changed multiple times over the course of an hour. Which solution meets these requirements?",
+    "question": "An upstream system is emitting change data capture (CDC) logs that are being written to a cloud object storage    directory. Each record in the log indicates the change type (insert, update, or delete) and the values for each field after the change. The source table has a primary key identified by the field pk_id. For auditing purposes, the data governance team wishes to maintain a full record of all values that have ever been valid in the source system. For analytical purposes, only the most recent value for each record needs to be recorded. The Databricks job to ingest these records occurs once per hour, but each individual record may have changed multiple times over the course of an hour. Which solution meets these requirements?",
     "choices": [
       {
         "id": "A",
@@ -435,7 +435,7 @@
   },
   {
     "id": 15,
-    "question": "A table in the Lakehouse named customer_churn_params is used in churn prediction by the machine learning team. The table contains information about customers derived from a number of upstream sources. Currently, the data engineering team populates this table nightly by overwriting the table with the current valid values derived from upstream data sources. Question: 14 Exam Heist Question: 15 Exam Heist The churn prediction model used by the ML team is fairly stable in production. The team is only interested in making predictions on records that have changed in the past 24 hours. Which approach would simplify the identification of these changed records?",
+    "question": "A table in the Lakehouse named customer_churn_params is used in churn prediction by the machine learning team. The table contains information about customers derived from a number of upstream sources. Currently, the data engineering team populates this table nightly by overwriting the table with the current valid values derived from upstream data sources.   The churn prediction model used by the ML team is fairly stable in production. The team is only interested in making predictions on records that have changed in the past 24 hours. Which approach would simplify the identification of these changed records?",
     "choices": [
       {
         "id": "A",
@@ -497,7 +497,7 @@
   },
   {
     "id": 17,
-    "question": "Question: 16 Exam Heist A production workload incrementally applies updates from an external Change Data Capture feed to a Delta Lake table as an always-on Structured Stream job. When data was initially migrated for this table, OPTIMIZE was executed and most data files were resized to 1 GB. Auto Optimize and Auto Compaction were both turned on for the streaming production job. Recent review of data files shows that most data files are under 64 MB, although each partition in the table contains at least 1 GB of data and the total table size is over 10 TB. Which of the following likely explains these smaller file sizes?",
+    "question": "A production workload incrementally applies updates from an external Change Data Capture feed to a Delta Lake table as an always-on Structured Stream job. When data was initially migrated for this table, OPTIMIZE was executed and most data files were resized to 1 GB. Auto Optimize and Auto Compaction were both turned on for the streaming production job. Recent review of data files shows that most data files are under 64 MB, although each partition in the table contains at least 1 GB of data and the total table size is over 10 TB. Which of the following likely explains these smaller file sizes?",
     "choices": [
       {
         "id": "A",
@@ -559,7 +559,7 @@
   },
   {
     "id": 19,
-    "question": "A junior data engineer has been asked to develop a streaming data pipeline with a grouped aggregation using DataFrame df. The pipeline needs to calculate the average humidity and average temperature for each non- overlapping five-minute interval. Events are recorded once per minute per device. Streaming DataFrame df has the following schema: \"device_id INT, event_time TIMESTAMP, temp FLOAT, humidity FLOAT\" Code block: Question: 17 Exam Heist Question: 18 Exam Heist Question: 19 Exam Heist Choose the response that correctly fills in the blank within the code block to complete this task.",
+    "question": "A junior data engineer has been asked to develop a streaming data pipeline with a grouped aggregation using DataFrame df. The pipeline needs to calculate the average humidity and average temperature for each non- overlapping five-minute interval. Events are recorded once per minute per device. Streaming DataFrame df has the following schema: \"device_id INT, event_time TIMESTAMP, temp FLOAT, humidity FLOAT\" Code block:    Choose the response that correctly fills in the blank within the code block to complete this task.",
     "choices": [
       {
         "id": "A",
@@ -621,7 +621,7 @@
   },
   {
     "id": 21,
-    "question": "A Structured Streaming job deployed to production has been experiencing delays during peak hours of the day. At Question: 20 Exam Heist Question: 21 Exam Heist present, during normal execution, each microbatch of data is processed in less than 3 seconds. During peak hours of the day, execution time for each microbatch becomes very inconsistent, sometimes exceeding 30 seconds. The streaming write is currently configured with a trigger interval of 10 seconds. Holding all other variables constant and assuming records need to be processed in less than 10 seconds, which adjustment will meet the requirement?",
+    "question": "A Structured Streaming job deployed to production has been experiencing delays during peak hours of the day. At   present, during normal execution, each microbatch of data is processed in less than 3 seconds. During peak hours of the day, execution time for each microbatch becomes very inconsistent, sometimes exceeding 30 seconds. The streaming write is currently configured with a trigger interval of 10 seconds. Holding all other variables constant and assuming records need to be processed in less than 10 seconds, which adjustment will meet the requirement?",
     "choices": [
       {
         "id": "A",
@@ -714,7 +714,7 @@
   },
   {
     "id": 24,
-    "question": "Question: 22 Exam Heist Question: 23 Exam Heist Which configuration parameter directly affects the size of a spark-partition upon ingestion of data into Spark?",
+    "question": "Which configuration parameter directly affects the size of a spark-partition upon ingestion of data into Spark?",
     "choices": [
       {
         "id": "A",
@@ -780,34 +780,34 @@
     "choices": [
       {
         "id": "A",
-        "text": "• Total VMs; 1 • 400 GB per Executor • 160 Cores / Executor"
+        "text": "\u2022 Total VMs; 1 \u2022 400 GB per Executor \u2022 160 Cores / Executor"
       },
       {
         "id": "B",
-        "text": "• Total VMs: 8 • 50 GB per Executor • 20 Cores / Executor"
+        "text": "\u2022 Total VMs: 8 \u2022 50 GB per Executor \u2022 20 Cores / Executor"
       },
       {
         "id": "C",
-        "text": "• Total VMs: 16 • 25 GB per Executor • 10 Cores/Executor"
+        "text": "\u2022 Total VMs: 16 \u2022 25 GB per Executor \u2022 10 Cores/Executor"
       },
       {
         "id": "D",
-        "text": "• Total VMs: 4 • 100 GB per Executor • 40 Cores/Executor"
+        "text": "\u2022 Total VMs: 4 \u2022 100 GB per Executor \u2022 40 Cores/Executor"
       },
       {
         "id": "E",
-        "text": "• Total VMs:2 • 200 GB per Executor • 80 Cores / Executor"
+        "text": "\u2022 Total VMs:2 \u2022 200 GB per Executor \u2022 80 Cores / Executor"
       }
     ],
     "answer": "A",
-    "explanation": "• Total VMs; 1 • 400 GB per Executor • 160 Cores / Executor",
+    "explanation": "\u2022 Total VMs; 1 \u2022 400 GB per Executor \u2022 160 Cores / Executor",
     "images": [
       "/questions/q026.webp"
     ]
   },
   {
     "id": 27,
-    "question": "Question: 24 Exam Heist Question: 25 Exam Heist Question: 26 Exam Heist A junior data engineer on your team has implemented the following code block. The view new_events contains a batch of records with the same schema as the events Delta table. The event_id field serves as a unique key for this table. When this query is executed, what will happen with new records that have the same event_id as an existing record?",
+    "question": "A junior data engineer on your team has implemented the following code block. The view new_events contains a batch of records with the same schema as the events Delta table. The event_id field serves as a unique key for this table. When this query is executed, what will happen with new records that have the same event_id as an existing record?",
     "choices": [
       {
         "id": "A",
@@ -858,7 +858,7 @@
       },
       {
         "id": "E",
-        "text": "Each time the job is executed, only those records that have been inserted or updated since the last execution will be appended to the target table, giving the desired result. Question: 27 Exam Heist Question: 28 Exam Heist"
+        "text": "Each time the job is executed, only those records that have been inserted or updated since the last execution will be appended to the target table, giving the desired result."
       }
     ],
     "answer": "B",
@@ -908,7 +908,7 @@
       },
       {
         "id": "B",
-        "text": "return spark.readStream.load(\"bronze\") Question: 29 Exam Heist Question: 30 Exam Heist"
+        "text": "return spark.readStream.load(\"bronze\")"
       },
       {
         "id": "C",
@@ -962,7 +962,7 @@
   },
   {
     "id": 32,
-    "question": "The data engineering team maintains the following code: Question: 31 Exam Heist Question: 32 Exam Heist Assuming that this code produces logically correct results and the data in the source tables has been de- duplicated and validated, which statement describes what will occur when this code is executed?",
+    "question": "The data engineering team maintains the following code:   Assuming that this code produces logically correct results and the data in the source tables has been de- duplicated and validated, which statement describes what will occur when this code is executed?",
     "choices": [
       {
         "id": "A",
@@ -993,7 +993,7 @@
   },
   {
     "id": 33,
-    "question": "Question: 33 Exam Heist The data engineering team is migrating an enterprise system with thousands of tables and views into the Lakehouse. They plan to implement the target architecture using a series of bronze, silver, and gold tables. Bronze tables will almost exclusively be used by production data engineering workloads, while silver tables will be used to support both data engineering and machine learning workloads. Gold tables will largely serve business intelligence and reporting purposes. While personal identifying information (PII) exists in all tiers of data, pseudonymization and anonymization rules are in place for all data at the silver and gold levels. The organization is interested in reducing security concerns while maximizing the ability to collaborate across diverse teams. Which statement exemplifies best practices for implementing this system?",
+    "question": "The data engineering team is migrating an enterprise system with thousands of tables and views into the Lakehouse. They plan to implement the target architecture using a series of bronze, silver, and gold tables. Bronze tables will almost exclusively be used by production data engineering workloads, while silver tables will be used to support both data engineering and machine learning workloads. Gold tables will largely serve business intelligence and reporting purposes. While personal identifying information (PII) exists in all tiers of data, pseudonymization and anonymization rules are in place for all data at the silver and gold levels. The organization is interested in reducing security concerns while maximizing the ability to collaborate across diverse teams. Which statement exemplifies best practices for implementing this system?",
     "choices": [
       {
         "id": "A",
@@ -1067,7 +1067,7 @@
       },
       {
         "id": "C",
-        "text": "Create a new table with the required schema and new fields and use Delta Lake's deep clone functionality to Question: 34 Exam Heist Question: 35 Exam Heist sync up changes committed to one table to the corresponding table."
+        "text": "Create a new table with the required schema and new fields and use Delta Lake's deep clone functionality to   sync up changes committed to one table to the corresponding table."
       },
       {
         "id": "D",
@@ -1137,7 +1137,7 @@
       },
       {
         "id": "E",
-        "text": "Databricks notebooks send all executable code from the user’s browser to virtual machines over the open internet; whenever possible, choosing a workspace region near the end users is the most secure."
+        "text": "Databricks notebooks send all executable code from the user\u2019s browser to virtual machines over the open internet; whenever possible, choosing a workspace region near the end users is the most secure."
       }
     ],
     "answer": "C",
@@ -1148,7 +1148,7 @@
   },
   {
     "id": 38,
-    "question": "The downstream consumers of a Delta Lake table have been complaining about data quality issues impacting Question: 36 Exam Heist Question: 37 Exam Heist Question: 38 Exam Heist performance in their applications. Specifically, they have complained that invalid latitude and longitude values in the activity_details table have been breaking their ability to use other geolocation processes. A junior engineer has written the following code to add CHECK constraints to the Delta Lake table: A senior engineer has confirmed the above logic is correct and the valid ranges for latitude and longitude are provided, but the code fails when executed. Which statement explains the cause of this failure?",
+    "question": "The downstream consumers of a Delta Lake table have been complaining about data quality issues impacting    performance in their applications. Specifically, they have complained that invalid latitude and longitude values in the activity_details table have been breaking their ability to use other geolocation processes. A junior engineer has written the following code to add CHECK constraints to the Delta Lake table: A senior engineer has confirmed the above logic is correct and the valid ranges for latitude and longitude are provided, but the code fails when executed. Which statement explains the cause of this failure?",
     "choices": [
       {
         "id": "A",
@@ -1210,7 +1210,7 @@
   },
   {
     "id": 40,
-    "question": "The view updates represents an incremental batch of all newly ingested data to be inserted or updated in the customers table. The following logic is used to process these records. Question: 39 Exam Heist Question: 40 Exam Heist Which statement describes this implementation?",
+    "question": "The view updates represents an incremental batch of all newly ingested data to be inserted or updated in the customers table. The following logic is used to process these records.   Which statement describes this implementation?",
     "choices": [
       {
         "id": "A",
@@ -1272,7 +1272,7 @@
   },
   {
     "id": 42,
-    "question": "A table named user_ltv is being used to create a view that will be used by data analysts on various teams. Users in the workspace are configured into groups, which are used for setting up data access using ACLs. The user_ltv table has the following schema: Question: 41 Exam Heist Question: 42 Exam Heist email STRING, age INT, ltv INT The following view definition is executed: An analyst who is not a member of the marketing group executes the following query: SELECT * FROM email_ltv - Which statement describes the results returned by this query?",
+    "question": "A table named user_ltv is being used to create a view that will be used by data analysts on various teams. Users in the workspace are configured into groups, which are used for setting up data access using ACLs. The user_ltv table has the following schema:   email STRING, age INT, ltv INT The following view definition is executed: An analyst who is not a member of the marketing group executes the following query: SELECT * FROM email_ltv - Which statement describes the results returned by this query?",
     "choices": [
       {
         "id": "A",
@@ -1334,7 +1334,7 @@
   },
   {
     "id": 44,
-    "question": "Question: 43 Exam Heist The data governance team is reviewing code used for deleting records for compliance with GDPR. They note the following logic is used to delete records from the Delta Lake table named users. Assuming that user_id is a unique identifying key and that delete_requests contains all users that have requested deletion, which statement describes whether successfully executing the above logic guarantees that the records to be deleted are no longer accessible and why?",
+    "question": "The data governance team is reviewing code used for deleting records for compliance with GDPR. They note the following logic is used to delete records from the Delta Lake table named users. Assuming that user_id is a unique identifying key and that delete_requests contains all users that have requested deletion, which statement describes whether successfully executing the above logic guarantees that the records to be deleted are no longer accessible and why?",
     "choices": [
       {
         "id": "A",
@@ -1555,11 +1555,11 @@
     "choices": [
       {
         "id": "A",
-        "text": "In the Executor’s log file, by grepping for \"predicate push-down\""
+        "text": "In the Executor\u2019s log file, by grepping for \"predicate push-down\""
       },
       {
         "id": "B",
-        "text": "In the Stage’s Detail screen, in the Completed Stages table, by noting the size of data read from the Input column"
+        "text": "In the Stage\u2019s Detail screen, in the Completed Stages table, by noting the size of data read from the Input column"
       },
       {
         "id": "C",
@@ -1582,7 +1582,7 @@
   },
   {
     "id": 52,
-    "question": "Question: 49 Exam Heist Question: 50 Exam Heist Question: 51 Exam Heist Review the following error traceback: Which statement describes the error being raised?",
+    "question": "Review the following error traceback: Which statement describes the error being raised?",
     "choices": [
       {
         "id": "A",
@@ -1640,7 +1640,7 @@
   },
   {
     "id": 54,
-    "question": "Question: 52 Exam Heist Question: 53 Exam Heist Which Python variable contains a list of directories to be searched when trying to locate required modules?",
+    "question": "Which Python variable contains a list of directories to be searched when trying to locate required modules?",
     "choices": [
       {
         "id": "A",
@@ -1753,7 +1753,7 @@
       },
       {
         "id": "E",
-        "text": "/jobs/list Question: 54 Exam Heist Question: 55 Exam Heist Question: 56 Exam Heist Question: 57 Exam Heist"
+        "text": "/jobs/list"
       }
     ],
     "answer": "D",
@@ -1826,7 +1826,7 @@
   },
   {
     "id": 60,
-    "question": "The data engineering team maintains a table of aggregate statistics through batch nightly updates. This includes total sales for the previous day alongside totals and averages for a variety of time periods including the 7 previous days, year-to-date, and quarter-to-date. This table is named store_saies_summary and the schema is as follows: The table daily_store_sales contains all the information needed to update store_sales_summary. The schema for this table is: store_id INT, sales_date DATE, total_sales FLOAT Question: 58 Exam Heist Question: 59 Exam Heist Question: 60 Exam Heist If daily_store_sales is implemented as a Type 1 table and the total_sales column might be adjusted after manual data auditing, which approach is the safest to generate accurate reports in the store_sales_summary table?",
+    "question": "The data engineering team maintains a table of aggregate statistics through batch nightly updates. This includes total sales for the previous day alongside totals and averages for a variety of time periods including the 7 previous days, year-to-date, and quarter-to-date. This table is named store_saies_summary and the schema is as follows: The table daily_store_sales contains all the information needed to update store_sales_summary. The schema for this table is: store_id INT, sales_date DATE, total_sales FLOAT    If daily_store_sales is implemented as a Type 1 table and the total_sales column might be adjusted after manual data auditing, which approach is the safest to generate accurate reports in the store_sales_summary table?",
     "choices": [
       {
         "id": "A",
@@ -1857,7 +1857,7 @@
   },
   {
     "id": 61,
-    "question": "A member of the data engineering team has submitted a short notebook that they wish to schedule as part of a larger data pipeline. Assume that the commands provided below produce the logically correct results when run as presented. Question: 61 Exam Heist Which command should be removed from the notebook before scheduling it as a job?",
+    "question": "A member of the data engineering team has submitted a short notebook that they wish to schedule as part of a larger data pipeline. Assume that the commands provided below produce the logically correct results when run as presented.  Which command should be removed from the notebook before scheduling it as a job?",
     "choices": [
       {
         "id": "A",
@@ -1888,7 +1888,7 @@
   },
   {
     "id": 62,
-    "question": "The business reporting team requires that data for their dashboards be updated every hour. The total processing time for the pipeline that extracts transforms, and loads the data for their pipeline runs in 10 minutes. Question: 62 Exam Heist Assuming normal operating conditions, which configuration will meet their service-level agreement requirements with the lowest cost?",
+    "question": "The business reporting team requires that data for their dashboards be updated every hour. The total processing time for the pipeline that extracts transforms, and loads the data for their pipeline runs in 10 minutes.  Assuming normal operating conditions, which configuration will meet their service-level agreement requirements with the lowest cost?",
     "choices": [
       {
         "id": "A",
@@ -1950,7 +1950,7 @@
   },
   {
     "id": 64,
-    "question": "A Delta Lake table was created with the below query: Consider the following query: DROP TABLE prod.sales_by_store - Question: 63 Exam Heist Question: 64 Exam Heist If this statement is executed by a workspace admin, which result will occur?",
+    "question": "A Delta Lake table was created with the below query: Consider the following query: DROP TABLE prod.sales_by_store -   If this statement is executed by a workspace admin, which result will occur?",
     "choices": [
       {
         "id": "A",
@@ -2032,11 +2032,11 @@
       },
       {
         "id": "E",
-        "text": "%sh executes shell code on the driver node. The code does not take advantage of the worker nodes or Databricks optimized Spark. Question: 65 Exam Heist Question: 66 Exam Heist"
+        "text": "%sh executes shell code on the driver node. The code does not take advantage of the worker nodes or Databricks optimized Spark."
       }
     ],
     "answer": "E",
-    "explanation": "%sh executes shell code on the driver node. The code does not take advantage of the worker nodes or Databricks optimized Spark. Question: 65 Exam Heist Question: 66 Exam Heist",
+    "explanation": "%sh executes shell code on the driver node. The code does not take advantage of the worker nodes or Databricks optimized Spark.",
     "images": [
       "/questions/q066.webp"
     ]
@@ -2105,7 +2105,7 @@
   },
   {
     "id": 69,
-    "question": "The business intelligence team has a dashboard configured to track various summary metrics for retail stores. This includes total sales for the previous day alongside totals and averages for a variety of time periods. The fields required to populate this dashboard have the following schema: For demand forecasting, the Lakehouse contains a validated table of all itemized sales updated incrementally in near real-time. This table, named products_per_order, includes the following fields: Question: 67 Exam Heist Question: 68 Exam Heist Question: 69 Exam Heist Because reporting on long-term sales trends is less volatile, analysts using the new dashboard only require data to be refreshed once daily. Because the dashboard will be queried interactively by many users throughout a normal business day, it should return results quickly and reduce total compute associated with each materialization. Which solution meets the expectations of the end users while controlling and limiting possible costs?",
+    "question": "The business intelligence team has a dashboard configured to track various summary metrics for retail stores. This includes total sales for the previous day alongside totals and averages for a variety of time periods. The fields required to populate this dashboard have the following schema: For demand forecasting, the Lakehouse contains a validated table of all itemized sales updated incrementally in near real-time. This table, named products_per_order, includes the following fields:    Because reporting on long-term sales trends is less volatile, analysts using the new dashboard only require data to be refreshed once daily. Because the dashboard will be queried interactively by many users throughout a normal business day, it should return results quickly and reduce total compute associated with each materialization. Which solution meets the expectations of the end users while controlling and limiting possible costs?",
     "choices": [
       {
         "id": "A",
@@ -2167,7 +2167,7 @@
   },
   {
     "id": 71,
-    "question": "A junior data engineer has been asked to develop a streaming data pipeline with a grouped aggregation using DataFrame df. The pipeline needs to calculate the average humidity and average temperature for each non- overlapping five-minute interval. Incremental state information should be maintained for 10 minutes for late- arriving data. Streaming DataFrame df has the following schema: \"device_id INT, event_time TIMESTAMP, temp FLOAT, humidity FLOAT\" Code block: Question: 70 Exam Heist Question: 71 Exam Heist Choose the response that correctly fills in the blank within the code block to complete this task.",
+    "question": "A junior data engineer has been asked to develop a streaming data pipeline with a grouped aggregation using DataFrame df. The pipeline needs to calculate the average humidity and average temperature for each non- overlapping five-minute interval. Incremental state information should be maintained for 10 minutes for late- arriving data. Streaming DataFrame df has the following schema: \"device_id INT, event_time TIMESTAMP, temp FLOAT, humidity FLOAT\" Code block:   Choose the response that correctly fills in the blank within the code block to complete this task.",
     "choices": [
       {
         "id": "A",
@@ -2179,7 +2179,7 @@
       },
       {
         "id": "C",
-        "text": "await(\"event_time + ‘10 minutes'\")"
+        "text": "await(\"event_time + \u201810 minutes'\")"
       },
       {
         "id": "D",
@@ -2198,7 +2198,7 @@
   },
   {
     "id": 72,
-    "question": "A data team's Structured Streaming job is configured to calculate running aggregates for item sales to update a downstream marketing dashboard. The marketing team has introduced a new promotion, and they would like to add a new field to track the number of times this promotion code is used for each item. A junior data engineer suggests updating the existing query as follows. Note that proposed changes are in bold. Original query: Proposed query: Question: 72 Exam Heist Proposed query: .start(“/item_agg”) Which step must also be completed to put the proposed query into production?",
+    "question": "A data team's Structured Streaming job is configured to calculate running aggregates for item sales to update a downstream marketing dashboard. The marketing team has introduced a new promotion, and they would like to add a new field to track the number of times this promotion code is used for each item. A junior data engineer suggests updating the existing query as follows. Note that proposed changes are in bold. Original query: Proposed query:  Proposed query: .start(\u201c/item_agg\u201d) Which step must also be completed to put the proposed query into production?",
     "choices": [
       {
         "id": "A",
@@ -2218,7 +2218,7 @@
       },
       {
         "id": "E",
-        "text": "Remove .option(‘mergeSchema’, ‘true’) from the streaming write"
+        "text": "Remove .option(\u2018mergeSchema\u2019, \u2018true\u2019) from the streaming write"
       }
     ],
     "answer": "A",
@@ -2260,7 +2260,7 @@
   },
   {
     "id": 74,
-    "question": "Which statement describes the correct use of pyspark.sql.functions.broadcast? Question: 73 Exam Heist Question: 74 Exam Heist",
+    "question": "Which statement describes the correct use of pyspark.sql.functions.broadcast?",
     "choices": [
       {
         "id": "A",
@@ -2353,7 +2353,7 @@
   },
   {
     "id": 77,
-    "question": "In order to facilitate near real-time workloads, a data engineer is creating a helper function to leverage the schema detection and evolution functionality of Databricks Auto Loader. The desired function will automatically detect the schema of the source directly, incrementally process JSON files as they arrive in a source directory, and Question: 75 Exam Heist Question: 76 Exam Heist Question: 77 Exam Heist automatically evolve the schema of the table when new fields are detected. The function is displayed below with a blank: Which response correctly fills in the blank to meet the specified requirements?",
+    "question": "In order to facilitate near real-time workloads, a data engineer is creating a helper function to leverage the schema detection and evolution functionality of Databricks Auto Loader. The desired function will automatically detect the schema of the source directly, incrementally process JSON files as they arrive in a source directory, and    automatically evolve the schema of the table when new fields are detected. The function is displayed below with a blank: Which response correctly fills in the blank to meet the specified requirements?",
     "choices": [
       {
         "id": "A",
@@ -2415,7 +2415,7 @@
   },
   {
     "id": 79,
-    "question": "Question: 78 Exam Heist The data architect has mandated that all tables in the Lakehouse should be configured as external (also known as \"unmanaged\") Delta Lake tables. Which approach will ensure that this requirement is met?",
+    "question": "The data architect has mandated that all tables in the Lakehouse should be configured as external (also known as \"unmanaged\") Delta Lake tables. Which approach will ensure that this requirement is met?",
     "choices": [
       {
         "id": "A",
@@ -2477,7 +2477,7 @@
   },
   {
     "id": 81,
-    "question": "A CHECK constraint has been successfully added to the Delta table named activity_details using the following logic: Question: 79 Exam Heist Question: 80 Exam Heist Question: 81 Exam Heist A batch job is attempting to insert new records to the table, including a record where latitude = 45.50 and longitude = 212.67. Which statement describes the outcome of this batch insert?",
+    "question": "A CHECK constraint has been successfully added to the Delta table named activity_details using the following logic:    A batch job is attempting to insert new records to the table, including a record where latitude = 45.50 and longitude = 212.67. Which statement describes the outcome of this batch insert?",
     "choices": [
       {
         "id": "A",
@@ -2539,7 +2539,7 @@
   },
   {
     "id": 83,
-    "question": "All records from an Apache Kafka producer are being ingested into a single Delta Lake table with the following schema: Question: 82 Exam Heist Question: 83 Exam Heist key BINARY, value BINARY, topic STRING, partition LONG, offset LONG, timestamp LONG There are 5 unique topics being ingested. Only the \"registration\" topic contains Personal Identifiable Information (PII). The company wishes to restrict access to PII. The company also wishes to only retain records containing PII in this table for 14 days after initial ingestion. However, for non-PII information, it would like to retain these records indefinitely. Which of the following solutions meets the requirements?",
+    "question": "All records from an Apache Kafka producer are being ingested into a single Delta Lake table with the following schema:   key BINARY, value BINARY, topic STRING, partition LONG, offset LONG, timestamp LONG There are 5 unique topics being ingested. Only the \"registration\" topic contains Personal Identifiable Information (PII). The company wishes to restrict access to PII. The company also wishes to only retain records containing PII in this table for 14 days after initial ingestion. However, for non-PII information, it would like to retain these records indefinitely. Which of the following solutions meets the requirements?",
     "choices": [
       {
         "id": "A",
@@ -2601,7 +2601,7 @@
   },
   {
     "id": 85,
-    "question": "A distributed team of data analysts share computing resources on an interactive cluster with autoscaling configured. In order to better manage costs and query throughput, the workspace administrator is hoping to evaluate whether cluster upscaling is caused by many concurrent users or resource-intensive queries. Question: 84 Exam Heist Question: 85 Exam Heist In which location can one review the timeline for cluster resizing events?",
+    "question": "A distributed team of data analysts share computing resources on an interactive cluster with autoscaling configured. In order to better manage costs and query throughput, the workspace administrator is hoping to evaluate whether cluster upscaling is caused by many concurrent users or resource-intensive queries.   In which location can one review the timeline for cluster resizing events?",
     "choices": [
       {
         "id": "A",
@@ -2710,7 +2710,7 @@
       },
       {
         "id": "D",
-        "text": "Integration Question: 86 Exam Heist Question: 87 Exam Heist Question: 88 Exam Heist"
+        "text": "Integration"
       },
       {
         "id": "E",
@@ -2799,7 +2799,7 @@
       },
       {
         "id": "C",
-        "text": "Use Repos to pull changes from the remote Git repository; commit and push changes to a branch that appeared as changes were pulled. Question: 89 Exam Heist Question: 90 Exam Heist Question: 91 Exam Heist"
+        "text": "Use Repos to pull changes from the remote Git repository; commit and push changes to a branch that appeared as changes were pulled."
       },
       {
         "id": "D",
@@ -2861,7 +2861,7 @@
       },
       {
         "id": "C",
-        "text": "streamingDF.join(userLookup, [\"user_id”], how=\"left\")"
+        "text": "streamingDF.join(userLookup, [\"user_id\u201d], how=\"left\")"
       },
       {
         "id": "D",
@@ -2880,31 +2880,31 @@
   },
   {
     "id": 94,
-    "question": "Spill occurs as a result of executing various wide transformations. However, diagnosing spill requires one to proactively look for key indicators. Where in the Spark UI are two of the primary indicators that a partition is spilling to disk? Question: 92 Exam Heist Question: 93 Exam Heist Question: 94 Exam Heist",
+    "question": "Spill occurs as a result of executing various wide transformations. However, diagnosing spill requires one to proactively look for key indicators. Where in the Spark UI are two of the primary indicators that a partition is spilling to disk?",
     "choices": [
       {
         "id": "A",
-        "text": "Query’s detail screen and Job’s detail screen"
+        "text": "Query\u2019s detail screen and Job\u2019s detail screen"
       },
       {
         "id": "B",
-        "text": "Stage’s detail screen and Executor’s log files"
+        "text": "Stage\u2019s detail screen and Executor\u2019s log files"
       },
       {
         "id": "C",
-        "text": "Driver’s and Executor’s log files"
+        "text": "Driver\u2019s and Executor\u2019s log files"
       },
       {
         "id": "D",
-        "text": "Executor’s detail screen and Executor’s log files"
+        "text": "Executor\u2019s detail screen and Executor\u2019s log files"
       },
       {
         "id": "E",
-        "text": "Stage’s detail screen and Query’s detail screen"
+        "text": "Stage\u2019s detail screen and Query\u2019s detail screen"
       }
     ],
     "answer": "B",
-    "explanation": "Stage’s detail screen and Executor’s log files",
+    "explanation": "Stage\u2019s detail screen and Executor\u2019s log files",
     "images": [
       "/questions/q094.webp"
     ]
@@ -2942,7 +2942,7 @@
   },
   {
     "id": 96,
-    "question": "Question: 95 Exam Heist Question: 96 Exam Heist A junior data engineer is migrating a workload from a relational database system to the Databricks Lakehouse. The source system uses a star schema, leveraging foreign key constraints and multi-table inserts to validate records on write. Which consideration will impact the decisions made by the engineer while migrating this workload?",
+    "question": "A junior data engineer is migrating a workload from a relational database system to the Databricks Lakehouse. The source system uses a star schema, leveraging foreign key constraints and multi-table inserts to validate records on write. Which consideration will impact the decisions made by the engineer while migrating this workload?",
     "choices": [
       {
         "id": "A",
@@ -2962,7 +2962,7 @@
       },
       {
         "id": "E",
-        "text": "Foreign keys must reference a primary key field; multi-table inserts must leverage Delta Lake’s upsert functionality."
+        "text": "Foreign keys must reference a primary key field; multi-table inserts must leverage Delta Lake\u2019s upsert functionality."
       }
     ],
     "answer": "D",
@@ -2973,7 +2973,7 @@
   },
   {
     "id": 97,
-    "question": "A data architect has heard about Delta Lake’s built-in versioning and time travel capabilities. For auditing purposes, they have a requirement to maintain a full record of all valid street addresses as they appear in the customers table. The architect is interested in implementing a Type 1 table, overwriting existing records with new values and relying on Delta Lake time travel to support long-term auditing. A data engineer on the project feels that a Type 2 table will provide better performance and scalability. Which piece of information is critical to this decision?",
+    "question": "A data architect has heard about Delta Lake\u2019s built-in versioning and time travel capabilities. For auditing purposes, they have a requirement to maintain a full record of all valid street addresses as they appear in the customers table. The architect is interested in implementing a Type 1 table, overwriting existing records with new values and relying on Delta Lake time travel to support long-term auditing. A data engineer on the project feels that a Type 2 table will provide better performance and scalability. Which piece of information is critical to this decision?",
     "choices": [
       {
         "id": "A",
@@ -3004,7 +3004,7 @@
   },
   {
     "id": 98,
-    "question": "A table named user_ltv is being used to create a view that will be used by data analysts on various teams. Users in the workspace are configured into groups, which are used for setting up data access using ACLs. The user_ltv table has the following schema: email STRING, age INT, ltv INT The following view definition is executed: Question: 97 Exam Heist Question: 98 Exam Heist An analyst who is not a member of the auditing group executes the following query: SELECT * FROM user_ltv_no_minors Which statement describes the results returned by this query?",
+    "question": "A table named user_ltv is being used to create a view that will be used by data analysts on various teams. Users in the workspace are configured into groups, which are used for setting up data access using ACLs. The user_ltv table has the following schema: email STRING, age INT, ltv INT The following view definition is executed:   An analyst who is not a member of the auditing group executes the following query: SELECT * FROM user_ltv_no_minors Which statement describes the results returned by this query?",
     "choices": [
       {
         "id": "A",
@@ -3035,7 +3035,7 @@
   },
   {
     "id": 99,
-    "question": "The data governance team is reviewing code used for deleting records for compliance with GDPR. The following logic has been implemented to propagate delete requests from the user_lookup table to the user_aggregates table. Question: 99 Exam Heist Assuming that user_id is a unique identifying key and that all users that have requested deletion have been removed from the user_lookup table, which statement describes whether successfully executing the above logic guarantees that the records to be deleted from the user_aggregates table are no longer accessible and why?",
+    "question": "The data governance team is reviewing code used for deleting records for compliance with GDPR. The following logic has been implemented to propagate delete requests from the user_lookup table to the user_aggregates table.  Assuming that user_id is a unique identifying key and that all users that have requested deletion have been removed from the user_lookup table, which statement describes whether successfully executing the above logic guarantees that the records to be deleted from the user_aggregates table are no longer accessible and why?",
     "choices": [
       {
         "id": "A",
@@ -3066,7 +3066,7 @@
   },
   {
     "id": 100,
-    "question": "The data engineering team has been tasked with configuring connections to an external database that does not have a supported native connector with Databricks. The external database already has data security configured by group membership. These groups map directly to user groups already created in Databricks that represent various teams within the company. A new login credential has been created for each group in the external database. The Databricks Utilities Secrets module will be used to make these credentials available to Databricks users. Assuming that all the credentials are configured correctly on the external database and group membership is properly configured on Databricks, which statement describes how teams can be granted the minimum necessary access to using these credentials? Question: 100 Exam Heist",
+    "question": "The data engineering team has been tasked with configuring connections to an external database that does not have a supported native connector with Databricks. The external database already has data security configured by group membership. These groups map directly to user groups already created in Databricks that represent various teams within the company. A new login credential has been created for each group in the external database. The Databricks Utilities Secrets module will be used to make these credentials available to Databricks users. Assuming that all the credentials are configured correctly on the external database and group membership is properly configured on Databricks, which statement describes how teams can be granted the minimum necessary access to using these credentials?",
     "choices": [
       {
         "id": "A",
@@ -3093,7 +3093,7 @@
   },
   {
     "id": 101,
-    "question": "Which indicators would you look for in the Spark UI’s Storage tab to signal that a cached table is not performing optimally? Assume you are using Spark’s MEMORY_ONLY storage level.",
+    "question": "Which indicators would you look for in the Spark UI\u2019s Storage tab to signal that a cached table is not performing optimally? Assume you are using Spark\u2019s MEMORY_ONLY storage level.",
     "choices": [
       {
         "id": "A",
@@ -3101,7 +3101,7 @@
       },
       {
         "id": "B",
-        "text": "The RDD Block Name includes the “*” annotation signaling a failure to cache"
+        "text": "The RDD Block Name includes the \u201c*\u201d annotation signaling a failure to cache"
       },
       {
         "id": "C",
@@ -3180,9 +3180,7 @@
     ],
     "answer": "D",
     "explanation": "Closely simulates real world usage of your application",
-    "images": [
-  
-    ]
+    "images": []
   },
   {
     "id": 104,
@@ -3248,7 +3246,7 @@
   },
   {
     "id": 106,
-    "question": "A nightly batch job is configured to ingest all data files from a cloud object storage container where records are stored in a nested directory structure YYYY/MM/DD. The data for each date represents all records that were processed by the source system on that date, noting that some records may be delayed as they await moderator approval. Each entry represents a user review of a product and has the following schema: user_id STRING, review_id BIGINT, product_id BIGINT, review_timestamp TIMESTAMP, review_text STRING The ingestion job is configured to append all data for the previous date to a target table reviews_raw with an identical schema to the source system. The next step in the pipeline is a batch write to propagate all new records Question: 104 Exam Heist Question: 105 Exam Heist Question: 106 Exam Heist inserted into reviews_raw to a table where data is fully deduplicated, validated, and enriched. Which solution minimizes the compute costs to propagate this batch of data?",
+    "question": "A nightly batch job is configured to ingest all data files from a cloud object storage container where records are stored in a nested directory structure YYYY/MM/DD. The data for each date represents all records that were processed by the source system on that date, noting that some records may be delayed as they await moderator approval. Each entry represents a user review of a product and has the following schema: user_id STRING, review_id BIGINT, product_id BIGINT, review_timestamp TIMESTAMP, review_text STRING The ingestion job is configured to append all data for the previous date to a target table reviews_raw with an identical schema to the source system. The next step in the pipeline is a batch write to propagate all new records    inserted into reviews_raw to a table where data is fully deduplicated, validated, and enriched. Which solution minimizes the compute costs to propagate this batch of data?",
     "choices": [
       {
         "id": "A",
@@ -3341,7 +3339,7 @@
   },
   {
     "id": 109,
-    "question": "Question: 107 Exam Heist Question: 108 Exam Heist Question: 109 Exam Heist A Delta Lake table representing metadata about content posts from users has the following schema: user_id LONG, post_text STRING, post_id STRING, longitude FLOAT, latitude FLOAT, post_time TIMESTAMP, date DATE Based on the above schema, which column is a good candidate for partitioning the Delta Table?",
+    "question": "A Delta Lake table representing metadata about content posts from users has the following schema: user_id LONG, post_text STRING, post_id STRING, longitude FLOAT, latitude FLOAT, post_time TIMESTAMP, date DATE Based on the above schema, which column is a good candidate for partitioning the Delta Table?",
     "choices": [
       {
         "id": "A",
@@ -3434,31 +3432,31 @@
   },
   {
     "id": 112,
-    "question": "Each configuration below is identical to the extent that each cluster has 400 GB total of RAM 160 total cores and only one Executor per VM. Question: 110 Exam Heist Question: 111 Exam Heist Question: 112 Exam Heist Given an extremely long-running job for which completion must be guaranteed, which cluster configuration will be able to guarantee completion of the job in light of one or more VM failures?",
+    "question": "Each configuration below is identical to the extent that each cluster has 400 GB total of RAM 160 total cores and only one Executor per VM.    Given an extremely long-running job for which completion must be guaranteed, which cluster configuration will be able to guarantee completion of the job in light of one or more VM failures?",
     "choices": [
       {
         "id": "A",
-        "text": "• Total VMs: 8 • 50 GB per Executor • 20 Cores / Executor"
+        "text": "\u2022 Total VMs: 8 \u2022 50 GB per Executor \u2022 20 Cores / Executor"
       },
       {
         "id": "B",
-        "text": "• Total VMs: 16 • 25 GB per Executor • 10 Cores / Executor"
+        "text": "\u2022 Total VMs: 16 \u2022 25 GB per Executor \u2022 10 Cores / Executor"
       },
       {
         "id": "C",
-        "text": "• Total VMs: 1 • 400 GB per Executor • 160 Cores/Executor"
+        "text": "\u2022 Total VMs: 1 \u2022 400 GB per Executor \u2022 160 Cores/Executor"
       },
       {
         "id": "D",
-        "text": "• Total VMs: 4 • 100 GB per Executor • 40 Cores / Executor"
+        "text": "\u2022 Total VMs: 4 \u2022 100 GB per Executor \u2022 40 Cores / Executor"
       },
       {
         "id": "E",
-        "text": "• Total VMs: 2 • 200 GB per Executor • 80 Cores / Executor"
+        "text": "\u2022 Total VMs: 2 \u2022 200 GB per Executor \u2022 80 Cores / Executor"
       }
     ],
     "answer": "B",
-    "explanation": "• Total VMs: 16 • 25 GB per Executor • 10 Cores / Executor",
+    "explanation": "\u2022 Total VMs: 16 \u2022 25 GB per Executor \u2022 10 Cores / Executor",
     "images": [
       "/questions/q112.webp"
     ]
@@ -3469,7 +3467,7 @@
     "choices": [
       {
         "id": "A",
-        "text": "Execute a query to calculate the difference between the new version and the previous version using Delta Lake’s built-in versioning and lime travel functionality."
+        "text": "Execute a query to calculate the difference between the new version and the previous version using Delta Lake\u2019s built-in versioning and lime travel functionality."
       },
       {
         "id": "B",
@@ -3485,18 +3483,18 @@
       },
       {
         "id": "E",
-        "text": "Use Delta Lake’s change data feed to identify those records that have been updated, inserted, or deleted."
+        "text": "Use Delta Lake\u2019s change data feed to identify those records that have been updated, inserted, or deleted."
       }
     ],
     "answer": "E",
-    "explanation": "Use Delta Lake’s change data feed to identify those records that have been updated, inserted, or deleted.",
+    "explanation": "Use Delta Lake\u2019s change data feed to identify those records that have been updated, inserted, or deleted.",
     "images": [
       "/questions/q113.webp"
     ]
   },
   {
     "id": 114,
-    "question": "A data team’s Structured Streaming job is configured to calculate running aggregates for item sales to update a downstream marketing dashboard. The marketing team has introduced a new promotion, and they would like to add a new field to track the number of times this promotion code is used for each item. A junior data engineer suggests updating the existing query as follows. Note that proposed changes are in bold. Original query: Question: 113 Exam Heist Question: 114 Exam Heist Proposed query: Which step must also be completed to put the proposed query into production?",
+    "question": "A data team\u2019s Structured Streaming job is configured to calculate running aggregates for item sales to update a downstream marketing dashboard. The marketing team has introduced a new promotion, and they would like to add a new field to track the number of times this promotion code is used for each item. A junior data engineer suggests updating the existing query as follows. Note that proposed changes are in bold. Original query:   Proposed query: Which step must also be completed to put the proposed query into production?",
     "choices": [
       {
         "id": "A",
@@ -3512,7 +3510,7 @@
       },
       {
         "id": "D",
-        "text": "Run REFRESH TABLE delta.‛/item_agg‛"
+        "text": "Run REFRESH TABLE delta.\u201b/item_agg\u201b"
       }
     ],
     "answer": "A",
@@ -3554,7 +3552,7 @@
   },
   {
     "id": 116,
-    "question": "The data engineering team is configuring environments for development, testing, and production before beginning Question: 115 Exam Heist Question: 116 Exam Heist migration on a new data pipeline. The team requires extensive testing on both the code and data resulting from code execution, and the team wants to develop and test against data as similar to production data as possible. A junior data engineer suggests that production data can be mounted to the development and testing environments, allowing pre-production code to execute against production data. Because all users have admin privileges in the development environment, the junior data engineer has offered to configure permissions and mount this data for the team. Which statement captures best practices for this situation?",
+    "question": "The data engineering team is configuring environments for development, testing, and production before beginning   migration on a new data pipeline. The team requires extensive testing on both the code and data resulting from code execution, and the team wants to develop and test against data as similar to production data as possible. A junior data engineer suggests that production data can be mounted to the development and testing environments, allowing pre-production code to execute against production data. Because all users have admin privileges in the development environment, the junior data engineer has offered to configure permissions and mount this data for the team. Which statement captures best practices for this situation?",
     "choices": [
       {
         "id": "A",
@@ -3589,19 +3587,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "Once User C takes \"Owner\" privileges, their email address will appear in this field; prior to this, User A’s email address will appear in this field."
+        "text": "Once User C takes \"Owner\" privileges, their email address will appear in this field; prior to this, User A\u2019s email address will appear in this field."
       },
       {
         "id": "B",
-        "text": "User B’s email address will always appear in this field, as their credentials are always used to trigger the run."
+        "text": "User B\u2019s email address will always appear in this field, as their credentials are always used to trigger the run."
       },
       {
         "id": "C",
-        "text": "User A’s email address will always appear in this field, as they still own the underlying notebooks."
+        "text": "User A\u2019s email address will always appear in this field, as they still own the underlying notebooks."
       },
       {
         "id": "D",
-        "text": "Once User C takes \"Owner\" privileges, their email address will appear in this field; prior to this, User B’s email address will appear in this field."
+        "text": "Once User C takes \"Owner\" privileges, their email address will appear in this field; prior to this, User B\u2019s email address will appear in this field."
       },
       {
         "id": "E",
@@ -3609,14 +3607,14 @@
       }
     ],
     "answer": "C",
-    "explanation": "User A’s email address will always appear in this field, as they still own the underlying notebooks.",
+    "explanation": "User A\u2019s email address will always appear in this field, as they still own the underlying notebooks.",
     "images": [
       "/questions/q117.webp"
     ]
   },
   {
     "id": 118,
-    "question": "A member of the data engineering team has submitted a short notebook that they wish to schedule as part of a larger data pipeline. Assume that the commands provided below produce the logically correct results when run as presented. Question: 117 Exam Heist Question: 118 Exam Heist Which command should be removed from the notebook before scheduling it as a job?",
+    "question": "A member of the data engineering team has submitted a short notebook that they wish to schedule as part of a larger data pipeline. Assume that the commands provided below produce the logically correct results when run as presented.   Which command should be removed from the notebook before scheduling it as a job?",
     "choices": [
       {
         "id": "A",
@@ -3659,11 +3657,11 @@
       },
       {
         "id": "D",
-        "text": "Spark configuration properties set for an interactive cluster with the Clusters UI will impact all notebooks Question: 119 Exam Heist attached to that cluster."
+        "text": "Spark configuration properties set for an interactive cluster with the Clusters UI will impact all notebooks  attached to that cluster."
       }
     ],
     "answer": "D",
-    "explanation": "Spark configuration properties set for an interactive cluster with the Clusters UI will impact all notebooks Question: 119 Exam Heist attached to that cluster.",
+    "explanation": "Spark configuration properties set for an interactive cluster with the Clusters UI will impact all notebooks  attached to that cluster.",
     "images": [
       "/questions/q119.webp"
     ]
@@ -3724,7 +3722,7 @@
   },
   {
     "id": 122,
-    "question": "A Delta Lake table was created with the below query: Consider the following query: Question: 120 Exam Heist Question: 121 Exam Heist Question: 122 Exam Heist DROP TABLE prod.sales_by_store - If this statement is executed by a workspace admin, which result will occur?",
+    "question": "A Delta Lake table was created with the below query: Consider the following query:    DROP TABLE prod.sales_by_store - If this statement is executed by a workspace admin, which result will occur?",
     "choices": [
       {
         "id": "A",
@@ -3778,7 +3776,7 @@
   },
   {
     "id": 124,
-    "question": "The security team is exploring whether or not the Databricks secrets module can be leveraged for connecting to an external database. After testing the code with all Python variables being defined with strings, they upload the password to the secrets module and configure the correct permissions for the currently active user. They then modify their code to the following (leaving all other variables unchanged). Question: 123 Exam Heist Question: 124 Exam Heist Which statement describes what will happen when the above code is executed?",
+    "question": "The security team is exploring whether or not the Databricks secrets module can be leveraged for connecting to an external database. After testing the code with all Python variables being defined with strings, they upload the password to the secrets module and configure the correct permissions for the currently active user. They then modify their code to the following (leaving all other variables unchanged).   Which statement describes what will happen when the above code is executed?",
     "choices": [
       {
         "id": "A",
@@ -3859,7 +3857,7 @@
   },
   {
     "id": 127,
-    "question": "The data science team has requested assistance in accelerating queries on free-form text from user reviews. The data is currently stored in Parquet with the below schema: item_id INT, user_id INT, review_id INT, rating FLOAT, review STRING The review column contains the full text of the review left by the user. Specifically, the data science team is looking to identify if any of 30 key words exist in this field. A junior data engineer suggests converting this data to Delta Lake will improve query performance. Which response to the junior data engineer’s suggestion is correct?",
+    "question": "The data science team has requested assistance in accelerating queries on free-form text from user reviews. The data is currently stored in Parquet with the below schema: item_id INT, user_id INT, review_id INT, rating FLOAT, review STRING The review column contains the full text of the review left by the user. Specifically, the data science team is looking to identify if any of 30 key words exist in this field. A junior data engineer suggests converting this data to Delta Lake will improve query performance. Which response to the junior data engineer\u2019s suggestion is correct?",
     "choices": [
       {
         "id": "A",
@@ -3871,7 +3869,7 @@
       },
       {
         "id": "C",
-        "text": "ZORDER ON review will need to be run to see performance gains. Question: 126 Exam Heist Question: 127 Exam Heist"
+        "text": "ZORDER ON review will need to be run to see performance gains."
       },
       {
         "id": "D",
@@ -3940,7 +3938,7 @@
   },
   {
     "id": 130,
-    "question": "The following table consists of items found in user carts within an e-commerce website. Question: 128 Exam Heist Question: 129 Exam Heist Question: 130 Exam Heist The following MERGE statement is used to update this table using an updates view, with schema evolution enabled on this table. How would the following update be handled?",
+    "question": "The following table consists of items found in user carts within an e-commerce website.    The following MERGE statement is used to update this table using an updates view, with schema evolution enabled on this table. How would the following update be handled?",
     "choices": [
       {
         "id": "A",
@@ -3983,18 +3981,18 @@
       },
       {
         "id": "D",
-        "text": "Use Delta Lake’s change data feed to automatically process CDC data from an external system, propagating all changes to all dependent tables in the Lakehouse."
+        "text": "Use Delta Lake\u2019s change data feed to automatically process CDC data from an external system, propagating all changes to all dependent tables in the Lakehouse."
       }
     ],
     "answer": "D",
-    "explanation": "Use Delta Lake’s change data feed to automatically process CDC data from an external system, propagating all changes to all dependent tables in the Lakehouse.",
+    "explanation": "Use Delta Lake\u2019s change data feed to automatically process CDC data from an external system, propagating all changes to all dependent tables in the Lakehouse.",
     "images": [
       "/questions/q131.webp"
     ]
   },
   {
     "id": 132,
-    "question": "Question: 131 Exam Heist Question: 132 Exam Heist An hourly batch job is configured to ingest data files from a cloud object storage container where each batch represent all records produced by the source system in a given hour. The batch job to process these records into the Lakehouse is sufficiently delayed to ensure no late-arriving data is missed. The user_id field represents a unique key for the data, which has the following schema: user_id BIGINT, username STRING, user_utc STRING, user_region STRING, last_login BIGINT, auto_pay BOOLEAN, last_updated BIGINT New records are all ingested into a table named account_history which maintains a full record of all data in the same schema as the source. The next table in the system is named account_current and is implemented as a Type 1 table representing the most recent value for each unique user_id. Which implementation can be used to efficiently update the described account_current table as part of each hourly batch job assuming there are millions of user accounts and tens of thousands of records processed hourly?",
+    "question": "An hourly batch job is configured to ingest data files from a cloud object storage container where each batch represent all records produced by the source system in a given hour. The batch job to process these records into the Lakehouse is sufficiently delayed to ensure no late-arriving data is missed. The user_id field represents a unique key for the data, which has the following schema: user_id BIGINT, username STRING, user_utc STRING, user_region STRING, last_login BIGINT, auto_pay BOOLEAN, last_updated BIGINT New records are all ingested into a table named account_history which maintains a full record of all data in the same schema as the source. The next table in the system is named account_current and is implemented as a Type 1 table representing the most recent value for each unique user_id. Which implementation can be used to efficiently update the described account_current table as part of each hourly batch job assuming there are millions of user accounts and tens of thousands of records processed hourly?",
     "choices": [
       {
         "id": "A",
@@ -4037,7 +4035,7 @@
       },
       {
         "id": "D",
-        "text": "Use the Delta Cache to persist the products_per_order table in memory to quickly update the dashboard with each query. Question: 133 Exam Heist"
+        "text": "Use the Delta Cache to persist the products_per_order table in memory to quickly update the dashboard with each query."
       }
     ],
     "answer": "A",
@@ -4087,7 +4085,7 @@
       },
       {
         "id": "C",
-        "text": "All logic will execute at query time and return the result of joining the valid versions of the source tables at Question: 134 Exam Heist Question: 135 Exam Heist the time the query finishes."
+        "text": "All logic will execute at query time and return the result of joining the valid versions of the source tables at   the time the query finishes."
       },
       {
         "id": "D",
@@ -4156,7 +4154,7 @@
   },
   {
     "id": 138,
-    "question": "A junior data engineer has been asked to develop a streaming data pipeline with a grouped aggregation using DataFrame df. The pipeline needs to calculate the average humidity and average temperature for each non- overlapping five-minute interval. Events are recorded once per minute per device. Streaming DataFrame df has the following schema: \"device_id INT, event_time TIMESTAMP, temp FLOAT, humidity FLOAT\" Code block: Question: 136 Exam Heist Question: 137 Exam Heist Question: 138 Exam Heist Which line of code correctly fills in the blank within the code block to complete this task?",
+    "question": "A junior data engineer has been asked to develop a streaming data pipeline with a grouped aggregation using DataFrame df. The pipeline needs to calculate the average humidity and average temperature for each non- overlapping five-minute interval. Events are recorded once per minute per device. Streaming DataFrame df has the following schema: \"device_id INT, event_time TIMESTAMP, temp FLOAT, humidity FLOAT\" Code block:    Which line of code correctly fills in the blank within the code block to complete this task?",
     "choices": [
       {
         "id": "A",
@@ -4210,7 +4208,7 @@
   },
   {
     "id": 140,
-    "question": "Which statement describes Delta Lake optimized writes? Question: 139 Exam Heist Question: 140 Exam Heist",
+    "question": "Which statement describes Delta Lake optimized writes?",
     "choices": [
       {
         "id": "A",
@@ -4318,27 +4316,27 @@
   },
   {
     "id": 144,
-    "question": "Question: 141 Exam Heist Question: 142 Exam Heist Question: 143 Exam Heist Each configuration below is identical to the extent that each cluster has 400 GB total of RAM, 160 total cores and only one Executor per VM. Given an extremely long-running job for which completion must be guaranteed, which cluster configuration will be able to guarantee completion of the job in light of one or more VM failures?",
+    "question": "Each configuration below is identical to the extent that each cluster has 400 GB total of RAM, 160 total cores and only one Executor per VM. Given an extremely long-running job for which completion must be guaranteed, which cluster configuration will be able to guarantee completion of the job in light of one or more VM failures?",
     "choices": [
       {
         "id": "A",
-        "text": "• Total VMs: 8 • 50 GB per Executor • 20 Cores / Executor"
+        "text": "\u2022 Total VMs: 8 \u2022 50 GB per Executor \u2022 20 Cores / Executor"
       },
       {
         "id": "B",
-        "text": "• Total VMs: 16 • 25 GB per Executor • 10 Cores / Executor"
+        "text": "\u2022 Total VMs: 16 \u2022 25 GB per Executor \u2022 10 Cores / Executor"
       },
       {
         "id": "C",
-        "text": "• Total VMs: 1 • 400 GB per Executor • 160 Cores/Executor"
+        "text": "\u2022 Total VMs: 1 \u2022 400 GB per Executor \u2022 160 Cores/Executor"
       },
       {
         "id": "D",
-        "text": "• Total VMs: 4 • 100 GB per Executor • 40 Cores / Executor"
+        "text": "\u2022 Total VMs: 4 \u2022 100 GB per Executor \u2022 40 Cores / Executor"
       }
     ],
     "answer": "B",
-    "explanation": "• Total VMs: 16 • 25 GB per Executor • 10 Cores / Executor",
+    "explanation": "\u2022 Total VMs: 16 \u2022 25 GB per Executor \u2022 10 Cores / Executor",
     "images": [
       "/questions/q144.webp"
     ]
@@ -4353,7 +4351,7 @@
       },
       {
         "id": "B",
-        "text": "All records will be held in the state store for 2 hours before being deduplicated and committed to the orders table. Question: 144 Exam Heist Question: 145 Exam Heist"
+        "text": "All records will be held in the state store for 2 hours before being deduplicated and committed to the orders table."
       },
       {
         "id": "C",
@@ -4415,7 +4413,7 @@
       },
       {
         "id": "D",
-        "text": "Each time the job is executed, the differences between the original and current versions are calculated; this may result in duplicate entries for some records. Question: 146 Exam Heist Question: 147 Exam Heist"
+        "text": "Each time the job is executed, the differences between the original and current versions are calculated; this may result in duplicate entries for some records."
       }
     ],
     "answer": "B",
@@ -4426,7 +4424,7 @@
   },
   {
     "id": 148,
-    "question": "A DLT pipeline includes the following streaming tables: •raw_iot ingests raw device measurement data from a heart rate tracking device. •bpm_stats incrementally computes user statistics based on BPM measurements from raw_iot. How can the data engineer configure this pipeline to be able to retain manually deleted or updated records in the raw_iot table, while recomputing the downstream table bpm_stats table when a pipeline update is run?",
+    "question": "A DLT pipeline includes the following streaming tables: \u2022raw_iot ingests raw device measurement data from a heart rate tracking device. \u2022bpm_stats incrementally computes user statistics based on BPM measurements from raw_iot. How can the data engineer configure this pipeline to be able to retain manually deleted or updated records in the raw_iot table, while recomputing the downstream table bpm_stats table when a pipeline update is run?",
     "choices": [
       {
         "id": "A",
@@ -4480,7 +4478,7 @@
   },
   {
     "id": 150,
-    "question": "A nightly job ingests data into a Delta Lake table using the following code: Question: 148 Exam Heist Question: 149 Exam Heist Question: 150 Exam Heist The next step in the pipeline requires a function that returns an object that can be used to manipulate new records that have not yet been processed to the next table in the pipeline. Which code snippet completes this function definition? def new_records():",
+    "question": "A nightly job ingests data into a Delta Lake table using the following code:    The next step in the pipeline requires a function that returns an object that can be used to manipulate new records that have not yet been processed to the next table in the pipeline. Which code snippet completes this function definition? def new_records():",
     "choices": [
       {
         "id": "A",
@@ -4507,7 +4505,7 @@
   },
   {
     "id": 151,
-    "question": "A junior data engineer is working to implement logic for a Lakehouse table named silver_device_recordings. The source data contains 100 unique fields in a highly nested JSON structure. The silver_device_recordings table will be used downstream to power several production monitoring dashboards and a production model. At present, 45 of the 100 fields are being used in at least one of these applications. The data engineer is trying to determine the best approach for dealing with schema declaration given the highly- nested structure of the data and the numerous fields. Which of the following accurately presents information about Delta Lake and Databricks that may impact their decision-making process? Question: 151 Exam Heist",
+    "question": "A junior data engineer is working to implement logic for a Lakehouse table named silver_device_recordings. The source data contains 100 unique fields in a highly nested JSON structure. The silver_device_recordings table will be used downstream to power several production monitoring dashboards and a production model. At present, 45 of the 100 fields are being used in at least one of these applications. The data engineer is trying to determine the best approach for dealing with schema declaration given the highly- nested structure of the data and the numerous fields. Which of the following accurately presents information about Delta Lake and Databricks that may impact their decision-making process?",
     "choices": [
       {
         "id": "A",
@@ -4538,7 +4536,7 @@
     "choices": [
       {
         "id": "A",
-        "text": "A batch job will update the enriched_itemized_orders_by_account table, replacing only those rows that have Question: 152 Exam Heist different values than the current version of the table, using accountID as the primary key."
+        "text": "A batch job will update the enriched_itemized_orders_by_account table, replacing only those rows that have  different values than the current version of the table, using accountID as the primary key."
       },
       {
         "id": "B",
@@ -4615,7 +4613,7 @@
   },
   {
     "id": 155,
-    "question": "Question: 153 Exam Heist Question: 154 Exam Heist Question: 155 Exam Heist The marketing team is looking to share data in an aggregate table with the sales organization, but the field names used by the teams do not match, and a number of marketing-specific fields have not been approved for the sales org. Which of the following solutions addresses the situation while emphasizing simplicity?",
+    "question": "The marketing team is looking to share data in an aggregate table with the sales organization, but the field names used by the teams do not match, and a number of marketing-specific fields have not been approved for the sales org. Which of the following solutions addresses the situation while emphasizing simplicity?",
     "choices": [
       {
         "id": "A",
@@ -4681,15 +4679,15 @@
       },
       {
         "id": "C",
-        "text": "Cross-region reads and writes can incur significant costs and latency; whenever possible, compute should be deployed in the same region the data is stored. Question: 156 Exam Heist Question: 157 Exam Heist"
+        "text": "Cross-region reads and writes can incur significant costs and latency; whenever possible, compute should be deployed in the same region the data is stored."
       },
       {
         "id": "D",
-        "text": "Databricks notebooks send all executable code from the user’s browser to virtual machines over the open internet; whenever possible, choosing a workspace region near the end users is the most secure."
+        "text": "Databricks notebooks send all executable code from the user\u2019s browser to virtual machines over the open internet; whenever possible, choosing a workspace region near the end users is the most secure."
       }
     ],
     "answer": "C",
-    "explanation": "Cross-region reads and writes can incur significant costs and latency; whenever possible, compute should be deployed in the same region the data is stored. Question: 156 Exam Heist Question: 157 Exam Heist",
+    "explanation": "Cross-region reads and writes can incur significant costs and latency; whenever possible, compute should be deployed in the same region the data is stored.",
     "images": [
       "/questions/q157.webp"
     ]
@@ -4731,7 +4729,7 @@
       },
       {
         "id": "B",
-        "text": "Foreign keys must reference a primary key field; multi-table inserts must leverage Delta Lake’s upsert functionality."
+        "text": "Foreign keys must reference a primary key field; multi-table inserts must leverage Delta Lake\u2019s upsert functionality."
       },
       {
         "id": "C",
@@ -4739,18 +4737,18 @@
       },
       {
         "id": "D",
-        "text": "All Delta Lake transactions are ACID compliant against a single table, and Databricks does not enforce foreign key constraints. Question: 158 Exam Heist Question: 159 Exam Heist"
+        "text": "All Delta Lake transactions are ACID compliant against a single table, and Databricks does not enforce foreign key constraints."
       }
     ],
     "answer": "D",
-    "explanation": "All Delta Lake transactions are ACID compliant against a single table, and Databricks does not enforce foreign key constraints. Question: 158 Exam Heist Question: 159 Exam Heist",
+    "explanation": "All Delta Lake transactions are ACID compliant against a single table, and Databricks does not enforce foreign key constraints.",
     "images": [
       "/questions/q159.webp"
     ]
   },
   {
     "id": 160,
-    "question": "A data architect has heard about Delta Lake’s built-in versioning and time travel capabilities. For auditing purposes, they have a requirement to maintain a full record of all valid street addresses as they appear in the customers table. The architect is interested in implementing a Type 1 table, overwriting existing records with new values and relying on Delta Lake time travel to support long-term auditing. A data engineer on the project feels that a Type 2 table will provide better performance and scalability. Which piece of information is critical to this decision?",
+    "question": "A data architect has heard about Delta Lake\u2019s built-in versioning and time travel capabilities. For auditing purposes, they have a requirement to maintain a full record of all valid street addresses as they appear in the customers table. The architect is interested in implementing a Type 1 table, overwriting existing records with new values and relying on Delta Lake time travel to support long-term auditing. A data engineer on the project feels that a Type 2 table will provide better performance and scalability. Which piece of information is critical to this decision?",
     "choices": [
       {
         "id": "A",
@@ -4804,7 +4802,7 @@
   },
   {
     "id": 162,
-    "question": "Question: 160 Exam Heist Question: 161 Exam Heist Question: 162 Exam Heist A junior data engineer has manually configured a series of jobs using the Databricks Jobs UI. Upon reviewing their work, the engineer realizes that they are listed as the \"Owner\" for each job. They attempt to transfer \"Owner\" privileges to the \"DevOps\" group, but cannot successfully accomplish this task. Which statement explains what is preventing this privilege transfer?",
+    "question": "A junior data engineer has manually configured a series of jobs using the Databricks Jobs UI. Upon reviewing their work, the engineer realizes that they are listed as the \"Owner\" for each job. They attempt to transfer \"Owner\" privileges to the \"DevOps\" group, but cannot successfully accomplish this task. Which statement explains what is preventing this privilege transfer?",
     "choices": [
       {
         "id": "A",
@@ -4858,7 +4856,7 @@
   },
   {
     "id": 164,
-    "question": "Question: 163 Exam Heist All records from an Apache Kafka producer are being ingested into a single Delta Lake table with the following schema: key BINARY, value BINARY, topic STRING, partition LONG, offset LONG, timestamp LONG There are 5 unique topics being ingested. Only the \"registration\" topic contains Personal Identifiable Information (PII). The company wishes to restrict access to PII. The company also wishes to only retain records containing PII in this table for 14 days after initial ingestion. However, for non-PII information, it would like to retain these records indefinitely. Which solution meets the requirements?",
+    "question": "All records from an Apache Kafka producer are being ingested into a single Delta Lake table with the following schema: key BINARY, value BINARY, topic STRING, partition LONG, offset LONG, timestamp LONG There are 5 unique topics being ingested. Only the \"registration\" topic contains Personal Identifiable Information (PII). The company wishes to restrict access to PII. The company also wishes to only retain records containing PII in this table for 14 days after initial ingestion. However, for non-PII information, it would like to retain these records indefinitely. Which solution meets the requirements?",
     "choices": [
       {
         "id": "A",
@@ -4885,7 +4883,7 @@
   },
   {
     "id": 165,
-    "question": "The data governance team is reviewing code used for deleting records for compliance with GDPR. The following logic has been implemented to propagate delete requests from the user_lookup table to the user_aggregates table. Question: 164 Exam Heist Question: 165 Exam Heist Assuming that user_id is a unique identifying key and that all users that have requested deletion have been removed from the user_lookup table, which statement describes whether successfully executing the above logic guarantees that the records to be deleted from the user_aggregates table are no longer accessible and why?",
+    "question": "The data governance team is reviewing code used for deleting records for compliance with GDPR. The following logic has been implemented to propagate delete requests from the user_lookup table to the user_aggregates table.   Assuming that user_id is a unique identifying key and that all users that have requested deletion have been removed from the user_lookup table, which statement describes whether successfully executing the above logic guarantees that the records to be deleted from the user_aggregates table are no longer accessible and why?",
     "choices": [
       {
         "id": "A",
@@ -4912,7 +4910,7 @@
   },
   {
     "id": 166,
-    "question": "An external object storage container has been mounted to the location /mnt/finance_eda_bucket. The following logic was executed to create a database for the finance team: After the database was successfully created and permissions configured, a member of the finance team runs the following code: Question: 166 Exam Heist If all users on the finance team are members of the finance group, which statement describes how the tx_sales table will be created?",
+    "question": "An external object storage container has been mounted to the location /mnt/finance_eda_bucket. The following logic was executed to create a database for the finance team: After the database was successfully created and permissions configured, a member of the finance team runs the following code:  If all users on the finance team are members of the finance group, which statement describes how the tx_sales table will be created?",
     "choices": [
       {
         "id": "A",
@@ -4993,7 +4991,7 @@
   },
   {
     "id": 169,
-    "question": "Question: 167 Exam Heist Question: 168 Exam Heist A data engineer, User A, has promoted a new pipeline to production by using the REST API to programmatically create several jobs. A DevOps engineer, User B, has configured an external orchestration tool to trigger job runs through the REST API. Both users authorized the REST API calls using their personal access tokens. Which statement describes the contents of the workspace audit logs concerning these events?",
+    "question": "A data engineer, User A, has promoted a new pipeline to production by using the REST API to programmatically create several jobs. A DevOps engineer, User B, has configured an external orchestration tool to trigger job runs through the REST API. Both users authorized the REST API calls using their personal access tokens. Which statement describes the contents of the workspace audit logs concerning these events?",
     "choices": [
       {
         "id": "A",
@@ -5074,7 +5072,7 @@
   },
   {
     "id": 172,
-    "question": "The data engineer is using Spark's MEMORY_ONLY storage level. Question: 169 Exam Heist Question: 170 Exam Heist Question: 171 Exam Heist Question: 172 Exam Heist Which indicators should the data engineer look for in the Spark UI's Storage tab to signal that a cached table is not performing optimally?",
+    "question": "The data engineer is using Spark's MEMORY_ONLY storage level.     Which indicators should the data engineer look for in the Spark UI's Storage tab to signal that a cached table is not performing optimally?",
     "choices": [
       {
         "id": "A",
@@ -5082,7 +5080,7 @@
       },
       {
         "id": "B",
-        "text": "The RDD Block Name includes the “*” annotation signaling a failure to cache"
+        "text": "The RDD Block Name includes the \u201c*\u201d annotation signaling a failure to cache"
       },
       {
         "id": "C",
@@ -5094,7 +5092,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "The RDD Block Name includes the “*” annotation signaling a failure to cache",
+    "explanation": "The RDD Block Name includes the \u201c*\u201d annotation signaling a failure to cache",
     "images": [
       "/questions/q172.webp"
     ]
@@ -5128,7 +5126,7 @@
   },
   {
     "id": 174,
-    "question": "Question: 173 Exam Heist What is a method of installing a Python package scoped at the notebook level to all nodes in the currently active cluster?",
+    "question": "What is a method of installing a Python package scoped at the notebook level to all nodes in the currently active cluster?",
     "choices": [
       {
         "id": "A",
@@ -5236,7 +5234,7 @@
   },
   {
     "id": 178,
-    "question": "Question: 174 Exam Heist Question: 175 Exam Heist Question: 176 Exam Heist Question: 177 Exam Heist The Databricks CLI is used to trigger a run of an existing job by passing the job_id parameter. The response that the job run request has been submitted successfully includes a field run_id. Which statement describes what the number alongside this field represents?",
+    "question": "The Databricks CLI is used to trigger a run of an existing job by passing the job_id parameter. The response that the job run request has been submitted successfully includes a field run_id. Which statement describes what the number alongside this field represents?",
     "choices": [
       {
         "id": "A",
@@ -5317,7 +5315,7 @@
   },
   {
     "id": 181,
-    "question": "Question: 178 Exam Heist Question: 179 Exam Heist Question: 180 Exam Heist The data engineering team has configured a Databricks SQL query and alert to monitor the values in a Delta Lake table. The recent_sensor_recordings table contains an identifying sensor_id alongside the timestamp and temperature for the most recent 5 minutes of recordings. The below query is used to create the alert: The query is set to refresh each minute and always completes in less than 10 seconds. The alert is set to trigger when mean (temperature) > 120. Notifications are triggered to be sent at most every 1 minute. If this alert raises notifications for 3 consecutive minutes and then stops, which statement must be true?",
+    "question": "The data engineering team has configured a Databricks SQL query and alert to monitor the values in a Delta Lake table. The recent_sensor_recordings table contains an identifying sensor_id alongside the timestamp and temperature for the most recent 5 minutes of recordings. The below query is used to create the alert: The query is set to refresh each minute and always completes in less than 10 seconds. The alert is set to trigger when mean (temperature) > 120. Notifications are triggered to be sent at most every 1 minute. If this alert raises notifications for 3 consecutive minutes and then stops, which statement must be true?",
     "choices": [
       {
         "id": "A",
@@ -5371,7 +5369,7 @@
   },
   {
     "id": 183,
-    "question": "The data science team has created and logged a production model using MLflow. The following code correctly imports and applies the production model to output the predictions as a new DataFrame named preds with the schema \"customer_id LONG, predictions DOUBLE, date DATE\". Question: 181 Exam Heist Question: 182 Exam Heist Question: 183 Exam Heist The data science team would like predictions saved to a Delta Lake table with the ability to compare all predictions across time. Churn predictions will be made at most once per day. Which code block accomplishes this task while minimizing potential compute costs?",
+    "question": "The data science team has created and logged a production model using MLflow. The following code correctly imports and applies the production model to output the predictions as a new DataFrame named preds with the schema \"customer_id LONG, predictions DOUBLE, date DATE\".    The data science team would like predictions saved to a Delta Lake table with the ability to compare all predictions across time. Churn predictions will be made at most once per day. Which code block accomplishes this task while minimizing potential compute costs?",
     "choices": [
       {
         "id": "A",
@@ -5414,11 +5412,11 @@
       },
       {
         "id": "D",
-        "text": "The Delta log is scanned for min and max statistics for the latitude column Question: 184 Exam Heist"
+        "text": "The Delta log is scanned for min and max statistics for the latitude column"
       }
     ],
     "answer": "D",
-    "explanation": "The Delta log is scanned for min and max statistics for the latitude column Question: 184 Exam Heist",
+    "explanation": "The Delta log is scanned for min and max statistics for the latitude column",
     "images": [
       "/questions/q184.webp"
     ]
@@ -5452,7 +5450,7 @@
   },
   {
     "id": 186,
-    "question": "A view is registered with the following code: Both users and orders are Delta Lake tables. Which statement describes the results of querying recent_orders? Question: 185 Exam Heist Question: 186 Exam Heist",
+    "question": "A view is registered with the following code: Both users and orders are Delta Lake tables. Which statement describes the results of querying recent_orders?",
     "choices": [
       {
         "id": "A",
@@ -5533,7 +5531,7 @@
   },
   {
     "id": 189,
-    "question": "Question: 187 Exam Heist Question: 188 Exam Heist Which statement describes the default execution mode for Databricks Auto Loader?",
+    "question": "Which statement describes the default execution mode for Databricks Auto Loader?",
     "choices": [
       {
         "id": "A",
@@ -5587,7 +5585,7 @@
   },
   {
     "id": 191,
-    "question": "A team of data engineers are adding tables to a DLT pipeline that contain repetitive expectations for many of the same data quality checks. One member of the team suggests reusing these data quality rules across all tables defined for this pipeline. What approach would allow them to do this? Question: 189 Exam Heist Question: 190 Exam Heist Question: 191 Exam Heist",
+    "question": "A team of data engineers are adding tables to a DLT pipeline that contain repetitive expectations for many of the same data quality checks. One member of the team suggests reusing these data quality rules across all tables defined for this pipeline. What approach would allow them to do this?",
     "choices": [
       {
         "id": "A",
@@ -5653,7 +5651,7 @@
       },
       {
         "id": "C",
-        "text": "Production code development should only be done using an IDE; executing code against a local build of open source Spark and Delta Lake will provide the most accurate benchmarks for how code will perform in production. Question: 192 Exam Heist Question: 193 Exam Heist"
+        "text": "Production code development should only be done using an IDE; executing code against a local build of open source Spark and Delta Lake will provide the most accurate benchmarks for how code will perform in production."
       },
       {
         "id": "D",
@@ -5672,11 +5670,11 @@
     "choices": [
       {
         "id": "A",
-        "text": "In the Executor’s log file, by grepping for \"predicate push-down\""
+        "text": "In the Executor\u2019s log file, by grepping for \"predicate push-down\""
       },
       {
         "id": "B",
-        "text": "In the Stage’s Detail screen, in the Completed Stages table, by noting the size of data read from the Input column"
+        "text": "In the Stage\u2019s Detail screen, in the Completed Stages table, by noting the size of data read from the Input column"
       },
       {
         "id": "C",
@@ -5749,7 +5747,7 @@
   },
   {
     "id": 197,
-    "question": "A Data Engineer wants to run unit tests using common Python testing frameworks on Python functions defined across several Databricks notebooks currently used in production. Question: 194 Exam Heist Question: 195 Exam Heist Question: 196 Exam Heist Question: 197 Exam Heist How can the data engineer run unit tests against functions that work with data in production?",
+    "question": "A Data Engineer wants to run unit tests using common Python testing frameworks on Python functions defined across several Databricks notebooks currently used in production.     How can the data engineer run unit tests against functions that work with data in production?",
     "choices": [
       {
         "id": "A",
@@ -5776,7 +5774,7 @@
   },
   {
     "id": 198,
-    "question": "A data engineer wants to refactor the following DLT code, which includes multiple table definitions with very similar code. In an attempt to programmatically create these tables using a parameterized table definition, the data engineer writes the following code. The pipeline runs an update with this refactored code, but generates a different DAG showing incorrect configuration values for these tables. How can the data engineer fix this? Question: 198 Exam Heist",
+    "question": "A data engineer wants to refactor the following DLT code, which includes multiple table definitions with very similar code. In an attempt to programmatically create these tables using a parameterized table definition, the data engineer writes the following code. The pipeline runs an update with this refactored code, but generates a different DAG showing incorrect configuration values for these tables. How can the data engineer fix this?",
     "choices": [
       {
         "id": "A",
