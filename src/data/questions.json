@@ -1396,7 +1396,7 @@
   },
   {
     "id": 46,
-    "question": "Question: 44 Exam Heist Question: 45 Exam Heist Although the Databricks Utilities Secrets module provides tools to store sensitive credentials and avoid accidentally displaying them in plain text users should still be careful with which credentials are stored here and which users have access to using these secrets. Which statement describes a limitation of Databricks Secrets?",
+    "question": "Although the Databricks Utilities Secrets module provides tools to store sensitive credentials and avoid accidentally displaying them in plain text users should still be careful with which credentials are stored here and which users have access to using these secrets. Which statement describes a limitation of Databricks Secrets?",
     "choices": [
       {
         "id": "A",
