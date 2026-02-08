@@ -83,7 +83,7 @@
       },
       {
         "id": "E",
-        "text": "Cluster: Existing All-Purpose Cluster; Retries: None; Maximum Concurrent Runs: 1 Question: 1 Exam Heist Question: 2 Exam Heist Question: 3 Exam Heist"
+        "text": "Cluster: Existing All-Purpose Cluster; Retries: None; Maximum Concurrent Runs: 1"
       }
     ],
     "answer": "D",
@@ -156,7 +156,7 @@
   },
   {
     "id": 6,
-    "question": "The security team is exploring whether or not the Databricks secrets module can be leveraged for connecting to an external database. After testing the code with all Python variables being defined with strings, they upload the password to the secrets module and configure the correct permissions for the currently active user. They then modify their code to the following (leaving all other variables unchanged). Question: 4 Exam Heist Question: 5 Exam Heist Question: 6 Exam Heist Which statement describes what will happen when the above code is executed?",
+    "question": "The security team is exploring whether or not the Databricks secrets module can be leveraged for connecting to an external database. After testing the code with all Python variables being defined with strings, they upload the password to the secrets module and configure the correct permissions for the currently active user. They then modify their code to the following (leaving all other variables unchanged).Which statement describes what will happen when the above code is executed?",
     "choices": [
       {
         "id": "A",
@@ -195,7 +195,7 @@
       },
       {
         "id": "B",
-        "text": "preds.write.format(\"delta\").save(\"/preds/churn_preds\") Question: 7 Exam Heist"
+        "text": "preds.write.format(\"delta\").save(\"/preds/churn_preds\")"
       },
       {
         "id": "C",
@@ -238,7 +238,7 @@
       },
       {
         "id": "E",
-        "text": "Each write to the orders table will run deduplication over the union of new and existing records, ensuring no duplicate records are present. Question: 8 Exam Heist"
+        "text": "Each write to the orders table will run deduplication over the union of new and existing records, ensuring no duplicate records are present."
       }
     ],
     "answer": "B",
@@ -311,7 +311,7 @@
   },
   {
     "id": 11,
-    "question": "Question: 9 Exam Heist Question: 10 Exam Heist The data engineering team has configured a job to process customer requests to be forgotten (have their data deleted). All user data that needs to be deleted is stored in Delta Lake tables using default table settings. The team has decided to process all deletions from the previous week as a batch job at 1am each Sunday. The total duration of this job is less than one hour. Every Monday at 3am, a batch job executes a series of VACUUM commands on all Delta Lake tables throughout the organization. The compliance officer has recently learned about Delta Lake's time travel functionality. They are concerned that this might allow continued access to deleted data. Assuming all delete logic is correctly implemented, which statement correctly addresses this concern?",
+    "question": "The data engineering team has configured a job to process customer requests to be forgotten (have their data deleted). All user data that needs to be deleted is stored in Delta Lake tables using default table settings. The team has decided to process all deletions from the previous week as a batch job at 1am each Sunday. The total duration of this job is less than one hour. Every Monday at 3am, a batch job executes a series of VACUUM commands on all Delta Lake tables throughout the organization. The compliance officer has recently learned about Delta Lake's time travel functionality. They are concerned that this might allow continued access to deleted data. Assuming all delete logic is correctly implemented, which statement correctly addresses this concern?",
     "choices": [
       {
         "id": "A",
